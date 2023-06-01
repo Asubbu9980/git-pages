@@ -6,6 +6,8 @@
 .listing-heading {
   color: var(--primary-color);
   padding: 10px 20px 0 20px;
+  font-size: 22px;
+  font-weight: bold;
 }
 .listing-photo {
   height: 250px;

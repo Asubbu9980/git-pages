@@ -13,10 +13,12 @@ import { HousingService } from '../housing.service';
   ],
   template: `
     <section>
-      <form>
-        <input type="text" placeholder="Filter by city" #filter>
-        <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
-      </form>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Filter by city" (keyup)="filterResults(filter.value)" #filter>
+          <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+        </form>
+      </div>
     </section>
     <section class="results">
       <app-housing-location

@@ -9,7 +9,7 @@ export class HousingService {
   protected housingLocationList: HousingLocation[] = [
     {
       id: 0,
-      name: 'Acme Fresh Start Housing',
+      name: 'Ash Fresh Start Housing',
       city: 'Chicago',
       state: 'IL',
       photo: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg',
@@ -19,7 +19,7 @@ export class HousingService {
     },
     {
       id: 1,
-      name: 'A113 Transitional Housing',
+      name: 'Benn Transitional Housing',
       city: 'Santa Monica',
       state: 'CA',
       photo: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -29,7 +29,7 @@ export class HousingService {
     },
     {
       id: 2,
-      name: 'Warm Beds Housing Support',
+      name: 'Caliber Beds Housing Support',
       city: 'Juneau',
       state: 'AK',
       photo: 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -49,7 +49,7 @@ export class HousingService {
     },
     {
       id: 4,
-      name: 'Happy Homes Group',
+      name: 'David Homes Group',
       city: 'Gary',
       state: 'IN',
       photo: 'https://images.pexels.com/photos/8031877/pexels-photo-8031877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -59,7 +59,7 @@ export class HousingService {
     },
     {
       id: 5,
-      name: 'Hopeful Apartment Group',
+      name: 'Elite Apartment Group',
       city: 'Oakland',
       state: 'CA',
       photo: 'https://images.pexels.com/photos/5071179/pexels-photo-5071179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -79,7 +79,7 @@ export class HousingService {
     },
     {
       id: 7,
-      name: 'Hopeful Housing Solutions',
+      name: 'Zooker Housing Solutions',
       city: 'Oakland',
       state: 'CA',
       photo: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg',
@@ -89,7 +89,7 @@ export class HousingService {
     },
     {
       id: 8,
-      name: 'Seriously Safe Towns',
+      name: 'Queen Safe Towns',
       city: 'Oakland',
       state: 'CA',
       photo: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -99,7 +99,7 @@ export class HousingService {
     },
     {
       id: 9,
-      name: 'Capital Safe Towns',
+      name: 'Rose Safe Towns',
       city: 'Portland',
       state: 'OR',
       photo: 'https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
